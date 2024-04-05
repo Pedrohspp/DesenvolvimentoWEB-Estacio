@@ -1,0 +1,152 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-left: 90px;
+    filter: invert(100%);
+}
+
+header h1 {
+    font-family: 'Caveat', cursive;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -180px;
+}
+
+header form {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+header label,
+header input[type="text"],
+header input[type="password"],
+header input[type="submit"] {
+    margin-right: 5px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardapio .box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.cardapio .box > div {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+footer img {
+    width: 70px;
+    height: auto;
+    margin: auto;
+    filter: invert(100%);
+}
+
+.section-with-image {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-with-image img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.section-with-image p {
+    text-align: left;
+}
+
+.section-with-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-with-form h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-with-form form {
+    text-align: center;
+}
+
+.section-with-form label,
+.section-with-form input[type="text"],
+.section-with-form input[type="email"],
+.section-with-form button {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.section-with-form button {
+    padding: 5px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
